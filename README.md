@@ -46,7 +46,7 @@ En VSCode → `File > Open Workspace from File...` → selecciona `qgis.code-wor
   😿 No se pudo crear qgis.pth (permiso denegado).
   ⚠️ ⚠️ ⚠️   Intenta ejecutar este script como Administrador.
   ```
-  Solo copia el archivo qgis.pth (que se crea en la raíz del proyecto) en el directorio que se menciona en la terminal 
+  Solo copia el archivo qgis.pth (que se crea en la raíz del proyecto) en el directorio que se menciona en la terminal.
 
 - El `.env` no se versiona en Git. Cada usuario debe copiar `.env.example` a `.env` y modificarlo si necesita personalizar rutas.
 
@@ -54,4 +54,4 @@ En VSCode → `File > Open Workspace from File...` → selecciona `qgis.code-wor
 ---
 
 ## ✅ Resultado final
-Con este script, cualquier usuario podrá configurar VSCode para trabajar con QGIS en segundos, sin necesidad de editar rutas manualmente.
+Con este script, cualquier usuario podrá configurar VSCode para trabajar con QGIS, sin necesidad de editar rutas manualmente.
