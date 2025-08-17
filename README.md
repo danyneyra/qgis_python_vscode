@@ -41,13 +41,12 @@ En VSCode → `File > Open Workspace from File...` → selecciona `qgis.code-wor
 - El archivo `qgis.pth` se crea dentro de la carpeta de instalación de QGIS  
   (`C:/Program Files/QGIS.../Lib/site-packages`).  
   Esto puede requerir **ejecutar el script como Administrador**.  
-  Si ves esta advert4encia:  
+  Si ves esta advertencia:  
   ```
   😿 No se pudo crear qgis.pth (permiso denegado).
   ⚠️ ⚠️ ⚠️   Intenta ejecutar este script como Administrador.
-
-  Solo copia el archivo qgis.pth (que se crea en la raíz del proyecto) en el directorio que se menciona en la terminal 
   ```
+  Solo copia el archivo qgis.pth (que se crea en la raíz del proyecto) en el directorio que se menciona en la terminal 
 
 - El `.env` no se versiona en Git. Cada usuario debe copiar `.env.example` a `.env` y modificarlo si necesita personalizar rutas.
 
